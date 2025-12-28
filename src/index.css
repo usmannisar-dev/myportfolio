@@ -182,3 +182,29 @@
       0 0 80px color-mix(in srgb, var(--color-primary) 25%, transparent);
   }
 }
+
+@keyframes marquee-left {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.marquee-container {
+  display: inline-flex;
+  gap: 2.5rem;
+  animation: marquee-left 25s linear infinite;
+  animation-play-state: running;
+}
+
+.marquee-container:hover {
+  animation-play-state: paused; /* pause on hover */
+}
+
+@media (max-width: 768px) {
+  .marquee-container {
+    animation-duration: 30s; /* faster on mobile */
+  }
+}

@@ -2,40 +2,40 @@ import { ArrowUpRight, Github } from "lucide-react";
 import { AnimatedBorderButton } from "@/components/AnimatedBorderButton";
 const projects = [
   {
-    title: "Fintech Dashboard",
+    title: "Forever E-Commerce Website",
     description:
-      "A comprehensive financial analytics platform with real-time data visualization, portfolio management, and AI-powered insights.",
-    image: "/projects/project1.png",
-    tags: ["React", "Typescript", "NodeJS"],
-    link: "#",
-    github: "#",
+      "An e-commerce application for men's and women's clothing, featuring product listings, detailed product views, and a responsive user interface. Built with a modern tech stack to deliver a smooth and scalable shopping experience.",
+    image: "/projects/forever.png",
+    tags: ["TailwindCSS", "React.js", "Node.js", "MongoDB", "Express.js"],
+    link: "https://forever-ecommerce-eight.vercel.app",
+    github: "https://github.com/usmannisar-dev/forever-ecommerce",
   },
   {
-    title: "E-Commerce Platform",
+    title: "Kmat Technical Website",
     description:
-      "A full-featured e-commerce solution with inventory management, payment processing, and analytics dashboard.",
-    image: "/projects/project2.png",
-    tags: ["Next.js", "Stripe", "PostgreSQL", "Tailwind"],
-    link: "#",
-    github: "#",
+      "This project is a versatile platform designed to manage a wide array of services, including home appliances repair, air conditioning maintenance, kitchen equipment services, and more.",
+    image: "/projects/kmat.png",
+    tags: ["Formik", "Material-UI", "React.js", "Next.js"],
+    link: "https://www.kmatechnical.com",
+    github: "https://github.com/usmannisar-dev/Darat-Booking-Website",
   },
   {
-    title: "AI Writing Assistant",
+    title: "Taskify — Daily Task Management",
     description:
-      "An intelligent writing tool powered by GPT-4, helping users create better content faster.",
-    image: "/projects/project3.png",
-    tags: ["React", "OpenAI", "Python", "FastAPI"],
-    link: "#",
-    github: "#",
+      "A modern task management application with full CRUD functionality, powered by Redux for predictable and efficient state management. Designed with a clean UI to help users organize, track, and manage tasks seamlessly.",
+    image: "/projects/todo.png",
+    tags: ["Material-UI", "Formik", "React.js", "Redux"],
+    link: "https://dailytasksmanager.netlify.app",
+    github: "https://github.com/usmannisar-dev/ToDoWebsite",
   },
   {
-    title: "Project Management Tool",
+    title: "Tic Tac Toe Game",
     description:
-      "A collaborative workspace for teams with real-time updates, task tracking, and integrations.",
-    image: "/projects/project4.png",
-    tags: ["Next.js", "Socket.io", "MongoDB", "Redis"],
-    link: "#",
-    github: "#",
+      "A sleek, animated Tic Tac Toe game built with React and Material-UI. Designed with clean logic, responsive layout, and smooth interactions.And Include a dynamic winner modal.",
+    image: "/projects/tiktaktoe.png",
+    tags: ["Material-UI", "Formik", "React.js", "Redux"],
+    link: "https://to-do-website-snowy-iota.vercel.app/",
+    github: "https://github.com/usmannisar-dev/to-do-website",
   },
 ];
 
@@ -49,7 +49,7 @@ export const Projects = () => {
         {/* Section Header */}
         <div className="text-center mx-auto max-w-3xl mb-16">
           <span className="text-secondary-foreground text-sm font-medium tracking-wider uppercase animate-fade-in">
-            Featured Work
+            Featured Projects
           </span>
           <h2 className="text-4xl md:text-5xl font-bold mt-4 mb-6 animate-fade-in animation-delay-100 text-secondary-foreground">
             Projects that

@@ -16,7 +16,8 @@ const highlights = [
   {
     icon: Users,
     title: "Collaboration",
-    description: "Working closely with teams to bring ideas to life.",
+    description:
+      "Working closely with teams to bring ideas to life efficiently.",
   },
   {
     icon: Lightbulb,
@@ -49,22 +50,21 @@ export const About = () => {
 
             <div className="space-y-4 text-muted-foreground animate-fade-in animation-delay-200">
               <p>
-                I'm a passionate software engineer with over 5 years of
-                experience crafting digital products that make a difference. My
-                journey started with a curiosity for how things work on the web,
-                and it has evolved into a deep expertise in modern frontend
-                technologies.
+                I'm a passionate Full-Stack JavaScript Developer with over 1
+                year of hands-on front-end experience and strong back-end
+                skills. I build modern, responsive, and scalable web
+                applications that solve real-world problems.
               </p>
               <p>
-                I specialize in React, Next.js, and TypeScript, building
-                everything from sleek landing pages to complex enterprise
-                applications. My approach combines technical excellence with a
-                keen eye for design and user experience.
+                I specialize in React, Next.js, Redux Toolkit, TailwindCSS and
+                Material-UI on the front end, and Node.js, Express, and MongoDB
+                on the back end. I focus on creating intuitive user interfaces
+                while developing robust and efficient server-side systems.
               </p>
               <p>
-                When I'm not coding, you'll find me exploring new technologies,
-                contributing to open-source projects, or sharing knowledge with
-                the developer community.
+                Outside of coding, I enjoy exploring new technologies, improving
+                my full-stack expertise, contributing to open-source projects,
+                and sharing knowledge with the developer community.
               </p>
             </div>
 

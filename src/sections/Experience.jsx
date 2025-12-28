@@ -1,38 +1,36 @@
 const experiences = [
   {
-    period: "2022 — Present",
-    role: "Senior Frontend Engineer",
-    company: "Tech Innovators Inc.",
+    period: "Jan 2026 — Present",
+    role: "Full Stack Developer",
+    company: "Integriti Private Limited",
     description:
-      "Leading frontend architecture for a suite of fintech products. Implemented micro-frontend architecture, reduced bundle size by 40%, and mentored a team of 5 developers.",
-    technologies: ["React", "TypeScript", "Next.js", "GraphQL"],
+      "Working as a Full-Stack Developer, building scalable and maintainable web applications using modern front-end and back-end technologies. Focused on performance optimization, clean and modular architecture, and delivering reliable, production-ready solutions that address real-world business needs.",
+    technologies: [
+      "React.js",
+      "Next.js",
+      "Node.js",
+      "MongoDB",
+      "Express.js",
+      "TailwindCSS",
+    ],
     current: true,
   },
   {
-    period: "2020 — 2022",
-    role: "Frontend Engineer",
-    company: "Digital Solutions Co.",
+    period: "Sep 2024 — Dec 2024",
+    role: "Front end Developer",
+    company: "ZAI SYSTEMS (SMC-PRIVATE) LIMITED",
     description:
-      "Built and maintained multiple React applications for enterprise clients. Introduced automated testing practices that improved code coverage to 85%.",
-    technologies: ["React", "Redux", "Jest", "Cypress"],
+      "Worked as a Front-End Developer, building modern, responsive interfaces with React.js and Next.js, enhancing user experience through smooth GSAP animations and clean, scalable layouts using Tailwind CSS. Explored new technologies and contributed to responsive Ul development and performance improvements",
+    technologies: ["React.js", "Next.js", "GSAP", "TailwindCSS"],
     current: false,
   },
   {
-    period: "2019 — 2020",
-    role: "Junior Developer",
-    company: "StartUp Labs",
+    period: "Jan 2024 — Aug 2024",
+    role: "Front end Developer",
+    company: "The Dev Corporate",
     description:
-      "Contributed to the development of a SaaS platform from MVP to production. Collaborated with designers to implement pixel-perfect UI components.",
-    technologies: ["React", "Node.js", "MongoDB", "AWS"],
-    current: false,
-  },
-  {
-    period: "2018 — 2019",
-    role: "Freelance Developer",
-    company: "Self-Employed",
-    description:
-      "Delivered custom web solutions for small businesses and startups. Built 15+ websites and applications, handling everything from design to deployment.",
-    technologies: ["JavaScript", "PHP", "WordPress", "MySQL"],
+      "Started my journey at The Dev Corporate as a front-end intern and gradually grew into a confident front-end developer by working on multiple real-world projects. Gained hands-on experience building modern, responsive, and high-performance user interfaces using React.js, Next.js, Redux Toolkit, and Material-ui, while focusing on clean code, scalable components, smooth animations, and delivering intuitive user experiences aligned with real business needs..",
+    technologies: ["React.js", "Next.js", "Material-UI", "Redux Toolki"],
     current: false,
   },
 ];
@@ -70,8 +68,10 @@ export const Experience = () => {
             className="text-muted-foreground
            animate-fade-in animation-delay-200"
           >
-            A timeline of my professional growth, from curious beginner to
-            senior engineer leading teams and building products at scale.
+            A timeline of my professional growth — from starting with curiosity
+            and foundational skills to becoming a dedicated full-stack
+            developer, building scalable, real-world products with modern
+            technologies.
           </p>
         </div>
 
@@ -98,8 +98,8 @@ export const Experience = () => {
                 <div
                   className={`pl-8 md:pl-0 ${
                     idx % 2 === 0
-                      ? "md:pr-16 md:text-right"
-                      : "md:col-start-2 md:pl-16"
+                      ? "md:pr-16  text-balance"
+                      : "md:col-start-2 md:pl-16 text-balance"
                   }`}
                 >
                   <div
@@ -121,7 +121,7 @@ export const Experience = () => {
                       {exp.technologies.map((tech, techIdx) => (
                         <span
                           key={techIdx}
-                          className="px-3 py-1 bg-surface text-xs rounded-full text-muted-foreground"
+                          className="px-3 py-1 bg-primary text-xs rounded-full text-shadow-pink-400 text-black"
                         >
                           {tech}
                         </span>
