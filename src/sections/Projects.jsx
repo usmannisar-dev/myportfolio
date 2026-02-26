@@ -20,6 +20,33 @@ const projects = [
     github: "https://github.com/usmannisar-dev/Darat-Booking-Website",
   },
   {
+    title: "Protek Solutions - Corporate Website",
+    description:
+      "Protek Solutions - a modern tech platform showcasing infrastructure, AI-powered logistics, e-commerce incubation, and smart industrial services, built with clean design and seamless Next.js performance.",
+    image: "/projects/protek.png",
+    tags: ["Html", "Tailwind-Css", "Next.js"],
+    link: "https://protek-one.vercel.app/",
+    github: "https://github.com",
+  },
+  {
+    title: "Brandish - Webflow Creative Agency Website",
+    description:
+      "A clean, modern agency website showcasing branding, strategy, insights, and portfolio sections built with Webflow for engaging, responsive user experience.",
+    image: "/projects/brandish.png",
+    tags: ["Webflow", "Animated", "Responsive"],
+    link: "https://brandish-f4bf50.webflow.io/",
+    github: "https://github.com",
+  },
+  {
+    title: "Bob Beale Outfitters - Shopify Ecommerce Store",
+    description:
+      "A stylish ecommerce storefront showcasing outdoor apparel and custom-printed garments with responsive design and seamless shopping experience, built with Shopify for performance and conversions.",
+    image: "/projects/bob.png",
+    tags: ["Shopify", "Liquid", "Custom Section"],
+    link: "https://shop.bobbealeoutfitters.com/",
+    github: "https://github.com",
+  },
+  {
     title: "Taskify — Daily Task Management",
     description:
       "A modern task management application with full CRUD functionality, powered by Redux for predictable and efficient state management. Designed with a clean UI to help users organize, track, and manage tasks seamlessly.",
@@ -65,7 +92,7 @@ export const Projects = () => {
         </div>
 
         {/* Projects Grid */}
-        <div className="grid md:grid-cols-2 gap-8">
+        <div className="grid md:grid-cols-3 gap-8 px-20">
           {projects.map((project, idx) => (
             <div
               key={idx}
@@ -132,13 +159,12 @@ export const Projects = () => {
           ))}
         </div>
 
-        {/* View All CTA */}
-        <div className="text-center mt-12 animate-fade-in animation-delay-500">
+        {/* <div className="text-center mt-12 animate-fade-in animation-delay-500">
           <AnimatedBorderButton>
             View All Projects
             <ArrowUpRight className="w-5 h-5" />
           </AnimatedBorderButton>
-        </div>
+        </div> */}
       </div>
     </section>
   );
