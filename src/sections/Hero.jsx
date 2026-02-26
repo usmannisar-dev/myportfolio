@@ -25,6 +25,7 @@ import netlify from "@/assets/netlify.png";
 import github from "@/assets/github.png";
 import redux from "@/assets/redux.png";
 import vscode from "@/assets/vscode.png";
+import shopify from "@/assets/shopify.png";
 
 // Skills with logos from official CDNs
 const skills = [
@@ -40,6 +41,7 @@ const skills = [
   { name: "MongoDB", img: mongodb },
   { name: "Express.js", img: expressjs },
   { name: "Redux Toolkit", img: redux },
+  { name: "Shopify", img: shopify },
   { name: "GitHub", img: github },
   { name: "Netlify", img: netlify },
   { name: "Vercel", img: vercel },
