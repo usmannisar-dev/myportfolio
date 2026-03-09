@@ -50,16 +50,17 @@ export const About = () => {
 
             <div className="space-y-4 text-muted-foreground animate-fade-in animation-delay-200">
               <p>
-                I'm a passionate Full-Stack JavaScript Developer with over 1
-                year of hands-on front-end experience and strong back-end
-                skills. I build modern, responsive, and scalable web
-                applications that solve real-world problems.
+                I'm a passionate Mern-Stack Developer with over 1 year of
+                hands-on front-end experience and strong back-end skills. I
+                build modern, responsive, and scalable web applications that
+                solve real-world problems.
               </p>
               <p>
-                I specialize in React, Next.js, Redux Toolkit, TailwindCSS and
-                Material-UI on the front end, and Node.js, Express, and MongoDB
-                on the back end. I focus on creating intuitive user interfaces
-                while developing robust and efficient server-side systems.
+                I specialize in Shopify, Webflow, React.js, Next.js, Redux
+                Toolkit, TailwindCSS and Material-UI on the front end, and
+                Node.js, Express, and MongoDB on the back end. I focus on
+                creating intuitive user interfaces while developing robust and
+                efficient server-side systems.
               </p>
               <p>
                 Outside of coding, I enjoy exploring new technologies, improving

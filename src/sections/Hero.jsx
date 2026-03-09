@@ -26,6 +26,7 @@ import github from "@/assets/github.png";
 import redux from "@/assets/redux.png";
 import vscode from "@/assets/vscode.png";
 import shopify from "@/assets/shopify.png";
+import webflow from "@/assets/Webflow.png";
 
 // Skills with logos from official CDNs
 const skills = [
@@ -42,6 +43,7 @@ const skills = [
   { name: "Express.js", img: expressjs },
   { name: "Redux Toolkit", img: redux },
   { name: "Shopify", img: shopify },
+  { name: "Webflow", img: webflow},
   { name: "GitHub", img: github },
   { name: "Netlify", img: netlify },
   { name: "Vercel", img: vercel },
@@ -87,7 +89,7 @@ export const Hero = () => {
             <div className="animate-fade-in">
               <span className="inline-flex items-center gap-2 px-4 py-2 rounded-full glass text-sm text-primary">
                 <span className="w-2 h-2 bg-primary rounded-full animate-pulse" />
-                <b>FULL STACK DEVELOPER</b>
+                <b>MERN STACK DEVELOPER</b>
               </span>
             </div>
 
@@ -103,12 +105,14 @@ export const Hero = () => {
                 </span>
               </h1>
               <p className="text-sm md:text-base lg:text-lg text-balance text-muted-foreground max-w-lg animate-fade-in animation-delay-200">
-                Hi, I'm Usman Nisar — a Full-Stack JavaScript Developer with
-                over 1 year of hands-on front-end experience, specializing in
-                building modern, responsive, and scalable web applications. I
-                work with React, Next.js, Redux, and Material-UI to craft
-                intuitive user interfaces, and use Node.js, Express, and MongoDB
-                to build robust, efficient back-end systems.
+                Hi, I'm Usman Nisar — a Mern-Stack Developer with 1+ years of
+                hands-on front-end experience and strong expertise in Node.js,
+                Express.js, and MongoDB. Proficient in building responsive,
+                high-performance web applications using React.js, Next.js,
+                Redux, Material-UI, and Shopify. Passionate about creating
+                intuitive user experiences, writing clean and maintainable code,
+                and developing scalable applications that meet real-world
+                business needs.
               </p>
             </div>
 
@@ -125,8 +129,8 @@ export const Hero = () => {
               </a>
 
               <a
-                href="https://drive.google.com/uc?export=download&id=1LsjWN6ZGiq69f0AsPJuOkMMELN_LYEis"
-                download="UsmanNisarResume.pdf"
+                href="https://drive.google.com/uc?export=download&id=1UIo_bWVGas4P2C7nyB__JWhwa4gvhJOF"
+                download="Usman_Nisar_Resume.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
               >

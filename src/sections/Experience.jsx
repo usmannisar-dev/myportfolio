@@ -1,10 +1,10 @@
 const experiences = [
   {
     period: "Jan 2026 — Present",
-    role: "Full Stack Developer",
+    role: "Software Engineer",
     company: "Integriti Private Limited",
     description:
-      "Working as a Full-Stack Developer, building scalable and maintainable web applications using modern front-end and back-end technologies. Focused on performance optimization, clean and modular architecture, and delivering reliable, production-ready solutions that address real-world business needs.",
+      "Working as a Software Engineer, building scalable and maintainable web applications using modern front-end and back-end technologies. Focused on performance optimization, clean and modular architecture, and delivering reliable, production-ready solutions that address real-world business needs.",
     technologies: [
       "React.js",
       "Next.js",
@@ -12,6 +12,8 @@ const experiences = [
       "MongoDB",
       "Express.js",
       "TailwindCSS",
+      "Shopify",
+      "Webflow",
     ],
     current: true,
   },
@@ -69,9 +71,8 @@ export const Experience = () => {
            animate-fade-in animation-delay-200"
           >
             A timeline of my professional growth — from starting with curiosity
-            and foundational skills to becoming a dedicated full-stack
-            developer, building scalable, real-world products with modern
-            technologies.
+            and foundational skills to becoming a dedicated Software Engineer,
+            building scalable, real-world products with modern technologies.
           </p>
         </div>
 
