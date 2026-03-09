@@ -26,7 +26,7 @@ import github from "@/assets/github.png";
 import redux from "@/assets/redux.png";
 import vscode from "@/assets/vscode.png";
 import shopify from "@/assets/shopify.png";
-import webflow from "@/assets/Webflow.png";
+import webflow from "@/assets/webflow.png";
 
 // Skills with logos from official CDNs
 const skills = [
