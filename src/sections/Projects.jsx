@@ -25,8 +25,8 @@ const projects = [
       "Protek Solutions - a modern tech platform showcasing infrastructure, AI-powered logistics, e-commerce incubation, and smart industrial services, built with clean design and seamless Next.js performance.",
     image: "/projects/protek.png",
     tags: ["Html", "Tailwind-Css", "Next.js"],
-    link: "https://protek-one.vercel.app/",
-    github: "https://github.com",
+    link: "https://www.proteksolutions.ca/",
+    github: "https://github.com/usmannisar-dev/",
   },
   {
     title: "Brandish - Webflow Creative Agency Website",
@@ -35,7 +35,7 @@ const projects = [
     image: "/projects/brandish.png",
     tags: ["Webflow", "Animated", "Responsive"],
     link: "https://brandish-f4bf50.webflow.io/",
-    github: "https://github.com",
+    github: "https://github.com/usmannisar-dev/",
   },
   {
     title: "Bob Beale Outfitters - Shopify Ecommerce Store",
@@ -43,8 +43,8 @@ const projects = [
       "A stylish ecommerce storefront showcasing outdoor apparel and custom-printed garments with responsive design and seamless shopping experience, built with Shopify for performance and conversions.",
     image: "/projects/bob.png",
     tags: ["Shopify", "Liquid", "Custom Section"],
-    link: "https://shop.bobbealeoutfitters.com/",
-    github: "https://github.com",
+    link: "https://bobbealeoutfitters.com/",
+    github: "https://github.com/usmannisar-dev/",
   },
   {
     title: "Taskify — Daily Task Management",
@@ -62,7 +62,7 @@ const projects = [
     image: "/projects/tiktaktoe.png",
     tags: ["Material-UI", "Formik", "React.js", "Redux"],
     link: "https://to-do-website-snowy-iota.vercel.app/",
-    github: "https://github.com/usmannisar-dev/to-do-website",
+    github: "https://github.com/usmannisar-dev/",
   },
 ];
 
