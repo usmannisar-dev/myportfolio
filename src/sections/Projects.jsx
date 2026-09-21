@@ -257,6 +257,7 @@ export const Projects = () => {
                     alt={`${project.title} project preview`}
                     loading="lazy"
                     className="w-full h-full object-cover transition-all duration-700 ease-out group-hover:scale-110"
+                    decoding="async"
                   />
 
                   {/* Dark overlay */}

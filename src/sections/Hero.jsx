@@ -835,9 +835,9 @@ export const Hero = () => {
                 <div
                   className="
                     absolute
-                    -inset-[1px]
+                    -inset-1px
                     rounded-3xl
-                    bg-gradient-to-r
+                    bg-linear-to-r
                     from-transparent
                     via-primary/60
                     to-transparent
@@ -857,13 +857,16 @@ export const Hero = () => {
                     className="
                       relative
                       w-full
-                      aspect-[4/5]
+                      aspect-4/5
                       object-cover
                       rounded-2xl
                       transition-transform
                       duration-1000
                       hover:scale-105
                     "
+                    loading="eager"
+                    fetchPriority="high"
+                    decoding="async"
                   />
 
                   {/* Image gradient */}
@@ -872,7 +875,7 @@ export const Hero = () => {
                     className="
                       absolute
                       inset-0
-                      bg-gradient-to-t
+                      bg-linear-to-t
                       from-background/50
                       via-transparent
                       to-transparent
